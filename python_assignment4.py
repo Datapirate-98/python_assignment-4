@@ -24,12 +24,14 @@ print(f"Area of the traingle: {t.area()}")
 def filter_long_words(n,l):
     res = [i for i in l if len(i)>n]
     print(res)
+filter_long_words(4,["satyam","rout","is","leaveit"])
 
 
 2.1
 def len_words(words):
     res = [len(i) for i in words]
     print(res)
+len_words(["my","name","is"])
 
 2.2
 def check_vowel(ch):
@@ -42,6 +44,7 @@ def check_vowel(ch):
             print("False")
     else:
         print("Must enter a charecter not string!")
+check_vowel("A")
 
 
 
